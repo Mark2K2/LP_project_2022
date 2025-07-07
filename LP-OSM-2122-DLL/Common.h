@@ -11,6 +11,7 @@ typedef std::pair<std::string, std::vector<PAIR_ATTR_VALUE>> CHILD_NODE;
 
 
 typedef struct {
+
     double lat;
     double lon;
 } Coordinate;

@@ -23,6 +23,8 @@ class Util {
 		static double DistanciaHaversine(double lat1, double lon1, double lat2, double lon2);
 		static double DistanciaHaversine(Coordinate px1, Coordinate px2);
 
+		static Coordinate calcularPuntCentral(std::vector<Coordinate>& punts);
+
 };
 
 

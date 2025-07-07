@@ -13,19 +13,26 @@ class MapaBase {
 		virtual void getCamins(std::vector<CamiBase*>&) = 0;
 		virtual void parsejaXmlElements(std::vector<XmlElement>& xmlElements) = 0;
 
+		virtual CamiBase* buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresBase* a) = 0;
 };
 
-class MapaSolucio : public MapaBase
-{
-	public:
-		void getPdis(std::vector<PuntDeInteresBase*>&) = 0;
-		void getCamins(std::vector<CamiBase*>&) = 0;
-		void parsejaXmlElements(std::vector<XmlElement>& xmlElements) = 0;
+class MapaSolucio : public MapaBase {
 
-	private:
-		std::vector<PuntDeInteresBase*> pdis;
-		std::vector<CamiBase*> camins;
-		std::vector<XmlElement> m_nodes;
-		std::vector<XmlElement> m_camins;
+public:
+
+	MapaSolucio();
+	~MapaSolucio();
+
+	void getPdis(std::vector<PuntDeInteresBase*>& out_pdis) override;
+	void getCamins(std::vector<CamiBase*>& out_camins) override;
+	void parsejaXmlElements(std::vector<XmlElement>& xmlNode) override;
+	CamiBase* buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresBase* a) override;
+
+private:
+	std::vector<PuntDeInteresBase*> pdis;
+	std::vector<CamiBase*> camins;
+	std::vector<XmlElement> m_nodes;
+	std::vector<XmlElement> m_camins;
+
 };
 

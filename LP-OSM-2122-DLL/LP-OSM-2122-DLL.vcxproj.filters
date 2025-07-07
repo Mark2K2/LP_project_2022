@@ -42,6 +42,18 @@
     <ClInclude Include="PuntDeInteresBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapaSolucio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrafSolucio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BallTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -65,10 +77,13 @@
     <ClCompile Include="PuntDeInteresBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CamiBase.cpp">
+    <ClCompile Include="MapaSolucio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MapaBase.cpp">
+    <ClCompile Include="GrafSolucio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BallTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

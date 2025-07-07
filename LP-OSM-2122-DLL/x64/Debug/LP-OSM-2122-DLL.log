@@ -1,10 +1,2 @@
-﻿  DLL-Bridge.cpp
-  dllmain.cpp
-  MapaBase.cpp
-  MapaRender.cpp
-C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\estudiants\LP-OSM-2122-DLL\MapaRender.cpp(37,57): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
-  PuntDeInteresBase.cpp
-  XML4OSMUtil.cpp
-  Generando código...
-     Creando biblioteca C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\estudiants\x64\Debug\LP-OSM-2122-DLL.lib y objeto C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\estudiants\x64\Debug\LP-OSM-2122-DLL.exp
-  LP-OSM-2122-DLL.vcxproj -> C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\estudiants\x64\Debug\LP-OSM-2122-DLL.dll
+﻿     Creando biblioteca C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\SEGONA PART\estudiants\x64\Debug\LP-OSM-2122-DLL.lib y objeto C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\SEGONA PART\estudiants\x64\Debug\LP-OSM-2122-DLL.exp
+  LP-OSM-2122-DLL.vcxproj -> C:\Users\marcb\Desktop\Uni\SEGUNDO\Laboratori Programació\PROYECTO\SEGONA PART\estudiants\x64\Debug\LP-OSM-2122-DLL.dll
